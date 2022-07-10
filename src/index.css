@@ -13,13 +13,12 @@ body{
     font-size: 12px;
     padding-top: 5px;
 }
-a:hover {
-  color: rgb(0, 0, 0)!important;
-}a {
-  color: rgba(0, 0, 0, 0.575)!important;
+a {
+  color: rgba(0, 0, 0, 0.575);
+  text-decoration: none;
 }
 body::-webkit-scrollbar { width: 0 !important }
-.carousel-inner{height: 487px; object-fit: contain
+.carousel-inner{height: 495px; object-fit: contain
 
 }.cl{background-color: #bec3c778;
 }
@@ -31,3 +30,32 @@ body::-webkit-scrollbar { width: 0 !important }
 .navbar-brand{
   color: black!important;
 }
+.active a{
+  color: rgb(0, 0, 0);
+}.pad{
+  padding: 1.05rem;
+}
+a:hover{
+  color: black!important;
+}
+.carousel-control-next, .carousel-control-prev{
+  width: 6%;
+}
+.d-md-block {
+  display: block!important;
+  position: sticky;
+  padding: 200px;
+}
+.fon {
+  transition-timing-function: ease;
+  font-size: xxx-large;
+  font-family: cursive;
+  font-weight: 700;
+
+}
+.subtitle{
+  letter-spacing: 1px;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #3083cd;}

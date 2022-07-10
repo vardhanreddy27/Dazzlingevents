@@ -5,12 +5,11 @@ import TopNav from '../components/TopNav'
 import Banner from '../components/Banner'
 
 function Home() {
-  const home = 'active';
-
   return (
     <><TopNav />
     <Navbar/>
     <Slideshow />
+    <Banner />
        </>
   )
 }

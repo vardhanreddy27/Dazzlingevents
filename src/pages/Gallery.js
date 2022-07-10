@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import TopNav from '../components/TopNav'
 
 function Gallery() {
   return (
-    <div>Gallery</div>
-  )
+    <><TopNav />
+<Navbar /> </>  )
 }
 
 export default Gallery

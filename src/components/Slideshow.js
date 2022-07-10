@@ -9,25 +9,30 @@ function Slideshow() {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="./test3.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+    <div className="carousel-item active " data-bs-interval="50000">
+      <img src="./low.jpg" className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-md-block">
+        <h1 data-aos="zoom-in" className='fon pb-2'>Event Organizers And Party Planners For All Celebrations</h1>
+        <p data-aos="zoom-in"className='subtitle'>DAZZLING EVENTS All-In-One Services For Weddings, Engagements, Kids Birthday, Naming Ceremony, Baby Shower, Housewarming, Corporate And Other Kinds Of Events In Bangalore.</p>
+        <button type="button" class="btn btn-secondary btn-lg">CONNECT</button>
+ </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item" data-bs-interval="50000">
       <img src="./test2.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+      <div className="carousel-caption d-md-block">
+        <h1 data-aos="zoom-in" className='fon pb-2'>Creating celebrations is NOT a job for us, it’s our passion… </h1>
+        <p data-aos="zoom-in" className='subtitle' >I simply love what I do!</p>
+        <button type="button" class="btn btn-secondary btn-lg">CONNECT</button>
+
       </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item" data-bs-interval="50000">
       <img src="./test.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+      <div className="carousel-caption d-md-block">
+        <h1 data-aos="zoom-in" className='fon pb-2'>Your perfect event starts here. </h1>
+        <p data-aos="zoom-in" className='subtitle'>DARZZLING is a leading event and wedding planner – Bangalore </p>
+        <button type="button" class="btn btn-secondary btn-lg">CONNECT</button>
+
       </div>
     </div>
   </div>
