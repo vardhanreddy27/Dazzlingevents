@@ -23,7 +23,7 @@ function App() {
         </Route>      <Route path="/Gallery" element={<Gallery />}>
           <Route index element={<Gallery />} />
         </Route>
-      </Routes>
+         </Routes>
     </BrowserRouter>
   )
 }

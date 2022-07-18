@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink,useLocation,Link} from 'react-router-dom'
 
 function Slideshow() {
   return (
@@ -9,29 +10,32 @@ function Slideshow() {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active " data-bs-interval="50000">
-      <img src="./low.jpg" className="d-block w-100" alt="..."/>
+    <div className="carousel-item active " data-bs-interval="7000">
+      <img src="./test2.jpg" className="d-block mbs w-100" alt="..."/>
       <div className="carousel-caption d-md-block">
         <h1 data-aos="zoom-in" className='fon pb-2'>Event Organizers And Party Planners For All Celebrations</h1>
-        <p data-aos="zoom-in"className='subtitle'>DAZZLING EVENTS All-In-One Services For Weddings, Engagements, Kids Birthday, Naming Ceremony, Baby Shower, Housewarming, Corporate And Other Kinds Of Events In Bangalore.</p>
-        <button type="button" class="btn btn-secondary btn-lg">CONNECT</button>
+        <p data-aos="zoom-in"className='subtitle ss'>DAZZLING EVENTS All-In-One Services For Weddings, Engagements, Kids Birthday, Naming Ceremony, Baby Shower, Housewarming, Corporate And Other Kinds Of Events In Bangalore.</p>
+        <Link to='/Contact'  className='pad'>  <button type="button" class="btn btn-primary btn-lg">GET IN TOUCH</button>
+</Link>
  </div>
     </div>
-    <div className="carousel-item" data-bs-interval="50000">
-      <img src="./test2.jpg" className="d-block w-100" alt="..."/>
+    <div className="carousel-item" data-bs-interval="7000">
+      <img src="./test.jpg" className="d-block mbs w-100" alt="..."/>
       <div className="carousel-caption d-md-block">
         <h1 data-aos="zoom-in" className='fon pb-2'>Creating celebrations is NOT a job for us, it’s our passion… </h1>
         <p data-aos="zoom-in" className='subtitle' >I simply love what I do!</p>
-        <button type="button" class="btn btn-secondary btn-lg">CONNECT</button>
+        <Link to='/Contact'  className='pad'>  <button type="button" class="btn btn-primary btn-lg">GET IN TOUCH</button>
+</Link>
 
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="50000">
-      <img src="./test.jpg" className="d-block w-100" alt="..."/>
+    <div className="carousel-item" data-bs-interval="7000">
+      <img src="./low.jpg" className="d-block mbs w-100" alt="..."/>
       <div className="carousel-caption d-md-block">
         <h1 data-aos="zoom-in" className='fon pb-2'>Your perfect event starts here. </h1>
-        <p data-aos="zoom-in" className='subtitle'>DARZZLING is a leading event and wedding planner – Bangalore </p>
-        <button type="button" class="btn btn-secondary btn-lg">CONNECT</button>
+        <p data-aos="zoom-in" className='subtitle'>DAZZLING is a leading event and wedding planner – Bangalore </p>
+        <Link to='/Contact'  className='pad'> <button type="button" class="btn btn-primary btn-lg">GET IN TOUCH</button>
+</Link>
 
       </div>
     </div>
