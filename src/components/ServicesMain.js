@@ -6,7 +6,7 @@ function Service() {
     <div className='text-center colo'><h1 className=' mb-5 p-3 mt-4'>SERVICES</h1>
  
     <div className='row pb-5 ps-3 pe-3'>
-    <div className='col' >
+    <div className='col spb' >
     <figure class="snip1107 blue"><img src="./cater.jpg" alt="sampl31"/>
   <figcaption>
     <div>               
@@ -18,7 +18,7 @@ function Service() {
   </figcaption>
 </figure>
       </div>
-      <div className='col'>
+      <div className='col spb'>
     <figure class="snip1107 blue"><img src="./ring.jpg" alt="sampl31"/>
   <figcaption>
     <div>                  
@@ -28,8 +28,8 @@ function Service() {
     </div><a href="./Contact"></a> 
   </figcaption>
 </figure>
-      </div>
-      <div className='col'>
+      </div> 
+      <div className='col spb'>
     <figure class="snip1107 blue"><img src="./house.jpg" alt="sampl31"/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
@@ -42,7 +42,7 @@ function Service() {
       
       </div>
       <div className='row pb-5 pt-1 ps-3 pe-3'>
-    <div className='col'>
+    <div className='col spb'>
     <figure class="snip1107 blue"><img src="./marriage.jpg" alt="sampl31"/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
@@ -52,7 +52,7 @@ function Service() {
   </figcaption>
 </figure>
       </div>
-      <div className='col'>
+      <div className='col spb'>
     <figure class="snip1107 blue"><img src="./namming.jpg" alt="sampl31"/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
@@ -62,7 +62,7 @@ function Service() {
   </figcaption>
 </figure>
       </div>
-      <div className='col'>
+      <div className='col spb'>
     <figure class="snip1107 blue"><img src="./birthday.jpg" alt="sampl31"/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
