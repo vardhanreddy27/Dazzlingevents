@@ -384,7 +384,9 @@ label {
   background-color:  aliceblue; ;
 }
 @media screen and (max-width: 600px) {
- .aku{
+ .tq{
+  padding-bottom: 2.5rem;
+}.aku{
   padding-left: 3rem;
   padding-right: 3rem;
   width: 100%;

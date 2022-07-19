@@ -16,7 +16,7 @@ export default function Counter() {
   <div className="card-body" >
     <h2 className="card-subtitle mb-2 shield"><BsFillShieldFill /></h2>
     <h2><Ticker className="count" end={8} suffix="+" /></h2>
-    <p className="card-text">Years Of Experience</p>
+    <p className="card-text tq">Years Of Experience</p>
   
   </div>
 </div></div>  <div className='col'><div className="card"data-aos="fade-up" >
