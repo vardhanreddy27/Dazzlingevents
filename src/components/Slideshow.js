@@ -11,7 +11,7 @@ function Slideshow() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active " data-bs-interval="7000">
-      <img src="./test2.jpg" className="d-block mbs w-100" alt="..."/>
+      <img src="./test2.JPG" className="d-block mbs w-100" alt="..."/>
       <div className="carousel-caption d-md-block">
         <h1 data-aos="zoom-in" className='fon pb-2'>Event Organizers And Party Planners For All Celebrations</h1>
         <p data-aos="zoom-in"className='subtitle ss'>DAZZLING EVENTS All-In-One Services For Weddings, Engagements, Kids Birthday, Naming Ceremony, Baby Shower, Housewarming, Corporate And Other Kinds Of Events In Bangalore.</p>
@@ -20,7 +20,7 @@ function Slideshow() {
  </div>
     </div>
     <div className="carousel-item" data-bs-interval="7000">
-      <img src="./test.jpg" className="d-block mbs w-100" alt="..."/>
+      <img src="./test.JPG" className="d-block mbs w-100" alt="..."/>
       <div className="carousel-caption d-md-block">
         <h1 data-aos="zoom-in" className='fon pb-2'>Creating celebrations is NOT a job for us, it’s our passion… </h1>
         <p data-aos="zoom-in" className='subtitle' >I simply love what I do!</p>
@@ -30,7 +30,7 @@ function Slideshow() {
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="7000">
-      <img src="./low.jpg" className="d-block mbs w-100" alt="..."/>
+      <img src="./low.JPG" className="d-block mbs w-100" alt="..."/>
       <div className="carousel-caption d-md-block">
         <h1 data-aos="zoom-in" className='fon pb-2'>Your perfect event starts here. </h1>
         <p data-aos="zoom-in" className='subtitle'>DAZZLING is a leading event and wedding planner – Bangalore </p>
