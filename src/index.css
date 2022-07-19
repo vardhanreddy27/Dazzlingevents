@@ -300,6 +300,8 @@ figure.snip1107.hover figcaption h5 {
 .ic{
   padding: 5px;
   margin-bottom: 9px;
+    margin-left: -14px;
+
 }.ici{
   padding: 3px;
   margin-bottom: 5px;
@@ -382,7 +384,21 @@ label {
   background-color:  aliceblue; ;
 }
 @media screen and (max-width: 600px) {
-  .spb{
+ .aku{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 100%;
+  padding-bottom: 2rem;
+ } .ssd{
+  width: auto;
+ }
+ .st {
+  position: relative;padding: 12px;margin-bottom: 2rem;
+width: 100%;
+left:0%;}
+ .fff{
+    text-align: center;
+  }  .spb{
     flex: auto;
   }
   .row {

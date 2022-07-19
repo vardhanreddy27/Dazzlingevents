@@ -8,7 +8,7 @@ import { BsYoutube } from 'react-icons/bs';
 
 function Footer() {
   return (<>
-<footer className=" backcolor p-5 mu">
+<footer className=" backcolor p-5 mu clla">
     <div className='container'>
        <div className='row'>
        <div className='col'><h1><FaMapMarkerAlt className='ic' />Find us</h1>1st, SBI ATM, Near, 20,Dazzling Events, Sarvabhouma Nagar, Chikkalasandra, Bengaluru, Karnataka 560061
@@ -31,7 +31,26 @@ function Footer() {
 
       
 
-    </footer>   <div className='row bcolor p-1'>
+    </footer>  
+    
+    <footer className=" backcolor p-5 mu d-lg-none">
+    <div className='container'>
+<div className='row'><div className='col-12'>
+<h1 className='fff'><FaMapMarkerAlt className='ic' />Find us</h1>1st, SBI ATM, Near, 20,Dazzling Events, Sarvabhouma Nagar, Chikkalasandra, Bengaluru, Karnataka 560061</div>
+<div className='col-12 text-center'><h1 className='fff mt-2 text-center mb-2'><IoCall className='ici'/>Call us</h1>+91 998 0100 843 <br></br><br></br></div><div className='col-12'><h1 className='fff'><AiFillMail className='iic'/>Mail us</h1>dazzlingseventmanagement@gmail.com</div></div>
+        <div className='row text-center'><h1 className='text-center mt-3'>Follow us </h1>
+        <div className='col'><h1><BsFacebook /></h1></div>
+        <div className='col'><h1><AiFillInstagram /></h1></div>
+        <div className='col'><h1><BsYoutube /></h1></div>
+        </div>
+         </div>
+
+      
+
+    </footer>  
+    
+    
+     <div className='row bcolor p-1'>
             <div className='col text-center'>
             Dazzling event © 2022 All rights reserved
             </div>

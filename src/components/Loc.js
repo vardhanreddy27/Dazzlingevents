@@ -4,7 +4,7 @@ function Loc() {
   return (
     <>            <div className='row pt-5 p-2'><h1 className='text-center '>Contact us</h1></div>
 
-    <div className='row text-center mt-4 p-5'>
+    <div className='row text-center mt-4 pb-5'>
       <div className='col-4 aku'><a href="mailto:dazzlingseventmanagement@gmail.com">
    <img src="./email.png" className="contact "></img><br />
       dazzlingseventmanagement@gmail.com   </a></div>
