@@ -8,24 +8,24 @@ function Gal() {
   <div className="row pt-2">
     <div className="col-md-4">
       <div className="thumbnail">
-        <a href="./1.jpg" target="_blank">
-          <img src="./1.jpg" className='g' alt="Lights" />
+        <a href="./1.JPG" target="_blank">
+          <img src="./1.JPG" className='g' alt="Lights" />
       
         </a>
       </div>
     </div>
     <div className="col-md-4">
       <div className="thumbnail">
-        <a href="./2.jpg" target="_blank">
-          <img src="/2.jpg" className='g'  alt="Nature"/>
+        <a href="./2.JPG" target="_blank">
+          <img src="/2.JPG" className='g'  alt="Nature"/>
        
         </a>
       </div>
     </div>
     <div className="col-md-4">
       <div className="thumbnail">
-        <a href="./3.jpg" target="_blank">
-          <img src="./3.jpg" className='g'  alt="Fjords" />
+        <a href="./3.JPG" target="_blank">
+          <img src="./3.JPG" className='g'  alt="Fjords" />
        
         </a>
       </div>
@@ -33,24 +33,24 @@ function Gal() {
   </div>  <div className="row pt-2">
     <div className="col-md-4">
       <div className="thumbnail">
-        <a href="./7.jpg" target="_blank">
-          <img src="./7.jpg" className='g' alt="Lights" />
+        <a href="./7.JPG" target="_blank">
+          <img src="./7.JPG" className='g' alt="Lights" />
       
         </a>
       </div>
     </div>
     <div className="col-md-4">
       <div className="thumbnail">
-        <a href="./5.jpg" target="_blank">
-          <img src="/5.jpg" className='g'  alt="Nature"/>
+        <a href="./5.JPG" target="_blank">
+          <img src="/5.JPG" className='g'  alt="Nature"/>
        
         </a>
       </div>
     </div>
     <div className="col-md-4">
       <div className="thumbnail">
-        <a href="./6.jpg" target="_blank">
-          <img src="./6.jpg" className='g'  alt="Fjords" />
+        <a href="./6.JPG" target="_blank">
+          <img src="./6.JPG" className='g'  alt="Fjords" />
        
         </a>
       </div>
