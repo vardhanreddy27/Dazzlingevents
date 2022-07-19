@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink,useLocation,Link} from 'react-router-dom'
 
-function Service() {
+function ServicesMain() {
   return (
     <div className='text-center colo'><h1 className=' mb-5 p-3 mt-4'>SERVICES</h1>
  
@@ -78,4 +78,4 @@ function Service() {
       </div>  )
 }
 
-export default Service
+export default ServicesMain
