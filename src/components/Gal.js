@@ -30,7 +30,8 @@ function Gal() {
         </a>
       </div>
     </div>
-  </div>  <div className="row pt-2">
+  </div> 
+  <div className="row pt-2">
     <div className="col-md-4">
       <div className="thumbnail">
         <a href="./7.JPG" target="_blank">
@@ -51,6 +52,32 @@ function Gal() {
       <div className="thumbnail">
         <a href="./6.JPG" target="_blank">
           <img src="./6.JPG" className='g'  alt="Fjords" />
+       
+        </a>
+      </div>
+    </div>
+  </div>
+  <div className="row pt-2">
+    <div className="col-md-4">
+      <div className="thumbnail">
+        <a href="./decor.JPG" target="_blank">
+          <img src="./decor.JPG" className='g' alt="Lights" />
+      
+        </a>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="thumbnail">
+        <a href="./dec.JPG" target="_blank">
+          <img src="/dec.JPG" className='g'  alt="Nature"/>
+       
+        </a>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="thumbnail">
+        <a href="./hands.JPG" target="_blank">
+          <img src="./hands.JPG" className='g gif'  alt="Fjords" />
        
         </a>
       </div>

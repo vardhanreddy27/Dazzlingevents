@@ -441,7 +441,10 @@ left:0%;}
 }.g {
   height: 194px;
 }
-
+.gif{
+  height: 216px;
+}
+.llo{width: 100%;}
 }
 .vdo{height: 80%;}
 .mt5{ 
@@ -470,4 +473,12 @@ left:0%;}
   top: -124px;  background-color: #5c7bb7;
   color: white;
 }.ch{margin-top: 104px}
-.mn{    margin-bottom: 30px;}
+.mn{    margin-bottom: 30px;}.gif {
+  height: 226px;
+  width: 342px;
+}
+.jh{
+  margin-bottom: 0px;
+}
+.colos{color: #000000;}
+.cardh{padding-bottom: 2.5rem;}
