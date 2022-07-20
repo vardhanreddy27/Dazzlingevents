@@ -6,7 +6,7 @@ import { FaHandshake } from 'react-icons/fa';
 function Matter() {
   return (
     <div className='colo'>
-        <div className='row pe-5 pt-5 ps-5'><h1>Bengaluru Event Planners- Best Event Planners In Bangalore</h1></div>
+        <div className='row pe-5 pt-5 ps-5'><h1>Dazzling Events- Best Event Planners In Bangalore</h1></div>
         <div className='pe-5 ps-5'><p className='jh'>​<br></br>
         At Dazzling Events, we help manage your big ideas and your smallest concerns to ensure you are stress-free and enjoying every moment. For more than eight years, we've been working with clients to create exceptional experiences for their non profit social gathering. 
 <br></br><br></br>
