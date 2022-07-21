@@ -6,9 +6,9 @@ import Banner from '../components/Banner'
 import Getintouch from '../components/Getintouch'
 import Counter from '../components/Counter'
 import Service from '../components/Service'
-import Gallery from '../components/Galleryc'
 import Footer from '../components/Footer'
 import Additional from '../components/Additional'
+import Galleryc from '../components/Galleryc'
 
 function Home() {
   return (
@@ -21,7 +21,7 @@ function Home() {
     <Additional />
         <Getintouch />
 
-    <Gallery />
+    <Galleryc />
     <Footer />
        </>
   )

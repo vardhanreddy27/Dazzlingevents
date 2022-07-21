@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Gallery() {
+function Galleryc() {
   return (
    
 <div className="container p-5">
@@ -60,4 +60,4 @@ function Gallery() {
   )
 }
 
-export default Gallery
+export default Galleryc
