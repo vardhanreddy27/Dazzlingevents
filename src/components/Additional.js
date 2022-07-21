@@ -4,7 +4,12 @@ import { FcApproval } from 'react-icons/fc';
 function Additional() {
   return (
     <div>
-        
+        <div className='row'>
+          <h1 className='text-center'>We specialized in</h1>
+        </div><div className='row text-center mt-5 mb-5'>
+        <div className='col'><h4><img src='./p.png' className='lkm'/><br></br><br></br>Maternity Photoshoot</h4></div> 
+         <div className='col'><h4><img src='./child.png' className='baby'/><br></br><br></br>Baby Photoshoot</h4></div>
+         <div className='col'><h4><img src='./model.png' className='model'/><br></br><br></br>Modeling Photoshoot </h4></div>        </div>
      <div className='row'>
      <div className='col-3'>
     <h5 className='cine mb-3'>Photography And Cinematography</h5> <p className='marg'> <FcApproval /> Basic Photography </p>
