@@ -1,8 +1,11 @@
 import React from 'react'
-import {NavLink,useLocation,Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function ServicesMain() {
-  return (
+  function scrol(){
+    window.scrollTo(0,0);
+
+  } return (
     <div className='text-center colo'><h1 className=' mb-5 p-3 mt-4'>SERVICES</h1>
  
     <div className='row pb-5 ps-3 pe-3'>
@@ -13,8 +16,7 @@ function ServicesMain() {
 <span>GET IN TOUCH</span></div>
     <div>
       <h5>catering<br /> service</h5>
-    </div> <a ><a href="./Contact"></a> 
-</a>                   
+    </div> <Link to='/Contact' className='dk' onClick={scrol}></Link>           
   </figcaption>
 </figure>
       </div>
@@ -25,7 +27,7 @@ function ServicesMain() {
 <span>GET IN TOUCH</span></div>
     <div>
       <h5>Engagement ring ceremony</h5>
-    </div><a href="./Contact"></a> 
+    </div><Link to='/Contact' className='dk' onClick={scrol}></Link> 
   </figcaption>
 </figure>
       </div> 
@@ -35,7 +37,7 @@ function ServicesMain() {
     <div><span>GET IN TOUCH</span></div>
     <div>
       <h5>Housewarming ceremony</h5>
-    </div><a href="./Contact"></a> 
+    </div><Link to='/Contact' className='dk' onClick={scrol}></Link> 
   </figcaption>
 </figure>
       </div>
@@ -48,7 +50,7 @@ function ServicesMain() {
     <div><span>GET IN TOUCH</span></div>
     <div>
       <h5>Wedding, Marriage Function</h5>
-    </div><a href="./Contact"></a> 
+    </div><Link to='/Contact' className='dk' onClick={scrol}></Link> 
   </figcaption>
 </figure>
       </div>
@@ -58,7 +60,7 @@ function ServicesMain() {
     <div><span>GET IN TOUCH</span></div>
     <div>
       <h5>Naming <br />ceremony</h5>
-    </div><a href="./Contact"></a> 
+    </div><Link to='/Contact' className='dk' onClick={scrol}></Link> 
   </figcaption>
 </figure>
       </div>
@@ -68,7 +70,7 @@ function ServicesMain() {
     <div><span>GET IN TOUCH</span></div>
     <div>
       <h5>Birthday<br /> Party</h5>
-    </div><a href="./Contact"></a> 
+    </div><Link to='/Contact' className='dk' onClick={scrol}></Link> 
   </figcaption>
 </figure>
       </div>
