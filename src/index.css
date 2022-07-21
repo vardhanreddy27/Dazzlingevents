@@ -440,9 +440,13 @@ left:0%;}
    --bs-gutter-x: 0rem!important;
 }.g {
   height: 194px;
+}.gik{width: 297px!important;  margin-left: -3px;
 }
-.gif{
+.kil{width: 291px!important;}
+.gif {
   height: 216px;
+  width: 290px!important;
+  margin-left: 0px;
 }
 .llo{width: 100%;}
 .llol{width: 100%;flex: auto;
