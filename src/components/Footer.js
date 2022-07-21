@@ -37,15 +37,21 @@ function Footer() {
 
     </footer>  
     
-    <footer className=" backcolor p-5 mu d-lg-none">
+     <footer className=" backcolor tb-5 pl-1 pr-1 pt-5 mu d-lg-none">
     <div className='container'>
-<div className='row'><div className='col-12'>
-<h1 className='fff'><FaMapMarkerAlt className='ic' />Find us</h1>1st, SBI ATM, Near, 20,Dazzling Events, Sarvabhouma Nagar, Chikkalasandra, Bengaluru, Karnataka 560061</div>
-<div className='col-12 text-center'><h1 className='fff mt-2 text-center mb-2'><IoCall className='ici'/>Call us</h1>+91 998 0100 843 <br></br><br></br></div><div className='col-12'><h1 className='fff'><AiFillMail className='iic'/>Mail us</h1>dazzlingseventmanagement@gmail.com</div></div>
-        <div className='row text-center'><h1 className='text-center mt-3'>Follow us </h1>
-        <div className='col'><h1><a href="https://mobile.twitter.com/Dazzlingsevents" className='dk'><BsTwitter /> </a></h1></div>
-        <div className='col'><h1><a href="https://www.instagram.com/dazzlingsevent/?igshid=YmMyMTA2M2Y%3D"className='dk'><AiFillInstagram /></a></h1></div>
-        <div className='col'><h1><a href='https://www.youtube.com/channel/UCjJJLYqgo2n2glfNDBmdztw' className='dk'>  <BsYoutube /></a></h1></div>
+<div className='row'><div className='col-6'>
+<h1 className=' fd'><FaMapMarkerAlt className='ic' />Find us</h1>
+</div><div className='col-6'>
+1st, SBI ATM, Near, 20,Dazzling Events, Sarvabhouma Nagar, Chikkalasandra, Bengaluru, Karnataka 560061
+</div>
+<div className='col-6 mt-3'><h1 className='mt-2 mb-2'><IoCall className='ici'/>Call us</h1></div>
+<div className='col-6 mb-3 yt'><br></br>+91 998 0100 843 </div>
+
+</div>
+        <div className='row text-center pb-4'><h1 className='text-center mt-3'>Follow us </h1>
+        <div className='col mt-2'><h1><a href="https://mobile.twitter.com/Dazzlingsevents" className='dk'><BsTwitter /> </a></h1></div>
+        <div className='col mt-2'><h1><a href="https://www.instagram.com/dazzlingsevent/?igshid=YmMyMTA2M2Y%3D"className='dk'><AiFillInstagram /></a></h1></div>
+        <div className='col mt-2'><h1><a href='https://www.youtube.com/channel/UCjJJLYqgo2n2glfNDBmdztw' className='dk'>  <BsYoutube /></a></h1></div>
         </div>
          </div>
 
