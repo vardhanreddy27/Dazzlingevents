@@ -5,7 +5,16 @@ function Banner() {
     < div className=''>  
     
     <div className='row mt5'>
-    <div className='col-6-sm pt' data-aos="fade-up-right"> <video src="./bvideo.mp4" autoPlay muted  loop className='vdo' /></div>
+    <div className='col-6-sm pt' data-aos="fade-up-right" dangerouslySetInnerHTML={{ __html: `
+        <video
+          loop
+          muted
+          autoplay
+          playsinline
+          class="vdo"
+          src="./bvideo.mp4"   
+        />,
+      ` }}></div>
     <div className='col-6-sm xl'>
     <div className="container container1">
     <div className="cards" data-aos="fade-up-left">
