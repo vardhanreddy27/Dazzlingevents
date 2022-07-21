@@ -10,7 +10,7 @@ function Banner() {
           loop
           muted
           autoplay="true"
-          controls="false"
+          playsinline
           class="vdo"
           src="./bvideo.mp4"   
         />,
