@@ -60,16 +60,16 @@ function Gal() {
   <div className="row">
     <div className="col-md-4  pt-2">
       <div className="thumbnail">
-        <a href="./decor.JPG" target="_blank">
-          <img src="./decor.JPG" className='g' alt="Lights" />
+        <a href="./decor.PNG" target="_blank">
+          <img src="./decor.PNG" className='g' alt="Lights" />
       
         </a>
       </div>
     </div>
     <div className="col-md-4  pt-2">
       <div className="thumbnail">
-        <a href="./dec.JPG" target="_blank">
-          <img src="/dec.JPG" className='gik'  alt="Nature"/>
+        <a href="./dec.png" target="_blank">
+          <img src="/dec.png" className='gik'  alt="Nature"/>
        
         </a>
       </div>
