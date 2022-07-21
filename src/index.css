@@ -445,7 +445,11 @@ left:0%;}
   height: 216px;
 }
 .llo{width: 100%;}
+.llol{width: 100%;flex: auto;
 }
+
+}
+
 .vdo{height: 80%;}
 .mt5{ 
   margin-top: 3rem;
