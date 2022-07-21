@@ -9,7 +9,7 @@ function Banner() {
         <video
           loop
           muted
-          autoplay
+          autoplay={true} 
           playsinline
           class="vdo"
           src="./bvideo.mp4"   
