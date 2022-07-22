@@ -14,10 +14,12 @@ const Navbar = () =>{
 
   return (<>
 
-
+<div className={isActive ? 'sse': null}>
 <nav className="navbar navbar-expand-lg ">
   <div className='col-10 wi'>
-  <Link to='/'> <a className="navbar-brand ps-4 pe-4">DEVENTS</a>
+  <Link to='/'      className={isActive ? 'mlc': null} 
+> <a className="navbar-brand ps-4 pe-4"> 
+DEVENTS</a>
 </Link>
  </div><div className='col-2' > <div 
       className={isActive ? 'ist': null} 
@@ -27,22 +29,22 @@ const Navbar = () =>{
   </button></div>
   <div className="collapse navbar-collapse " id="navbarNavDropdown">
     <ul className="navbar-nav ">
-    <li className={splitLocation[1] === "" ? "active" : ""}>
+    <div className='test'>   <li className={splitLocation[1] === "" ? "active" : ""}>
                     <Link to='/' className='pad'>Home</Link>
-                </li>
-                <li className={splitLocation[1] === "About" ? "active" : ""}>
+                </li></div>
+             <div className='test'>   <li className={splitLocation[1] === "About" ? "active" : ""}>
                     <Link to='/About'  className='pad'>About</Link>
-                </li>
-                <li className={splitLocation[1] === "Services" ? "active" : ""}>
+                </li></div>
+                <div className='test'>         <li className={splitLocation[1] === "Services" ? "active" : ""}>
                    <Link to="/Services"  className='pad'>Service</Link>
-               </li>       <li className={splitLocation[1] === "Gallery" ? "active" : ""}>
+               </li>   </div>     <div className='test'>    <li className={splitLocation[1] === "Gallery" ? "active" : ""}>
                     <Link to='/Gallery'  className='pad'>Gallery</Link>
-                </li> <li className={splitLocation[1] === "Contact" ? "active" : ""}>
+                </li>   </div> <div className='test'>  <li className={splitLocation[1] === "Contact" ? "active" : ""}>
                     <Link to='/Contact'  className='pad'>Contact</Link>
-                </li>
+                </li></div>
     </ul>
   </div></div>
-</nav></> )
+</nav></div></> )
 }
 
 export default Navbar

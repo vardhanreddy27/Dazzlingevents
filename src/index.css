@@ -459,15 +459,20 @@ left:0%;}
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  right: 6rem;
+  right: 10rem;
   bottom: 7rem;
   position: relative;
   list-style: none;
+}.mlc{   bottom: 17.2rem;
+  position: relative;
 }
 .x{
   margin: 1rem;
 }
-
+.test{padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: xx-large;
+}
 }
 
 .vdo{height: 80%;}
@@ -530,6 +535,6 @@ left:0%;}
       position: relative;
     top: -12rem;
     z-index: 12;
-    background-color: white;
-    padding-top: 12rem;}
-     
+    background-color: aliceblue;;
+    padding-top: 14rem;}
+     .sse{background-color:aliceblue;}
