@@ -1,18 +1,30 @@
-import React from 'react'
+import {useState,React} from 'react'
 import {useLocation,Link} from 'react-router-dom'
 import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () =>{
   const location = useLocation();
   const { pathname } = location;
-  const splitLocation = pathname.split("/");  return (
-<nav className="navbar navbar-expand-lg  ">
+  const splitLocation = pathname.split("/"); 
+  const [isActive, setActive] = useState(false);
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
+
+
+  return (<>
+
+
+<nav className="navbar navbar-expand-lg ">
   <div className='col-10 wi'>
   <Link to='/'> <a className="navbar-brand ps-4 pe-4">DEVENTS</a>
 </Link>
- </div><div className='col-2' > <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+ </div><div className='col-2' > <div 
+      className={isActive ? 'ist': null} 
+      onClick={toggleClass} 
+    ><button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
    <FiMenu />
-  </button>
+  </button></div>
   <div className="collapse navbar-collapse " id="navbarNavDropdown">
     <ul className="navbar-nav ">
     <li className={splitLocation[1] === "" ? "active" : ""}>
@@ -28,10 +40,9 @@ const Navbar = () =>{
                 </li> <li className={splitLocation[1] === "Contact" ? "active" : ""}>
                     <Link to='/Contact'  className='pad'>Contact</Link>
                 </li>
-   
     </ul>
   </div></div>
-</nav> )
+</nav></> )
 }
 
 export default Navbar
