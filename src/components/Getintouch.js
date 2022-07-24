@@ -15,7 +15,7 @@ function Getintouch() {
         <h1 data-aos="zoom-in" className='fong pb-2'>Amazing decor team in Bangalore. satisfying service providers !!
 </h1>
         <p data-aos="zoom-in"className='subtitle'>Harini V N</p>
-        <img src='./v1.png' className='size'></img>
+        <img src='./v1.png' className='size'alt='dazzling event'></img>
  </div>
     </div>
     <div className="carousel-item" data-bs-interval="7000">
@@ -23,7 +23,7 @@ function Getintouch() {
         <h1 data-aos="zoom-in" className='fong pb-2 '>One of the best team with variety of collection for party decorations
 </h1>
         <p data-aos="zoom-in" className='subtitle' >Shreyanka S</p>
-        <img src='./r2.png' className='size'></img>
+        <img src='./r2.png' className='size'alt='dazzling event'></img>
 
       </div>
     </div>
@@ -31,7 +31,7 @@ function Getintouch() {
       <div className="carousel-caption d-md-block">
         <h1 data-aos="zoom-in" className='fong pb-2'>Best team to organise events.!! They are just dazzling </h1>
         <p data-aos="zoom-in" className='subtitle'>Vishnu Vardhan Reddy </p>
-        <img src='./r3.png' className='size'></img>
+        <img src='./r3.png' className='size'alt='dazzling event'></img>
 
 
       </div>

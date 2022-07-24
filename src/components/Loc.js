@@ -6,14 +6,14 @@ function Loc() {
 
     <div className='row text-center mt-4 pb-5'>
       <div className='col-4 aku'><a href="mailto:dazzlingseventmanagement@gmail.com">
-   <img src="./email.png" className="contact "></img><br />
+   <img src="./email.png" className="contact "alt='dazzling event'></img><br />
       dazzlingseventmanagement@gmail.com   </a></div>
    <div className='col-4 aku'><a href="tel:9980100843">
-   <img src="./call.png" className="contact "></img><br />
+   <img src="./call.png" className="contact "alt='dazzling event'></img><br />
 
    +91 998 0100 843</a>
     </div>   <div className='col-4  aku'><a href="https://wa.me/9980100843">
-    <img src="./whatsapp.png" className="contact"></img><br />
+    <img src="./whatsapp.png" className="contact"alt='dazzling event'></img><br />
 
     +91 998 0100 843</a>
     </div>   </div>

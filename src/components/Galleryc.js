@@ -9,7 +9,7 @@ function Galleryc() {
     <div className="col-md-4 pt-2">
       <div className="thumbnail">
         <a href="./one.png" target="_blank">
-          <img src="./one.png" className='g' alt="Lights" />
+          <img src="./one.png" className='g'alt='dazzling event' />
       
         </a>
       </div>
@@ -17,7 +17,7 @@ function Galleryc() {
     <div className="col-md-4 pt-2">
       <div className="thumbnail">
         <a href="./two.png" target="_blank">
-          <img src="/two.png" className='g'  alt="Nature"/>
+          <img src="/two.png" className='g' alt='dazzling event'/>
        
         </a>
       </div>
@@ -25,7 +25,7 @@ function Galleryc() {
     <div className="col-md-4 pt-2">
       <div className="thumbnail">
         <a href="./three.png" target="_blank">
-          <img src="./three.png" className='g'  alt="Fjords" />
+          <img src="./three.png" className='g'  alt='dazzling event'/>
        
         </a>
       </div>
@@ -34,7 +34,7 @@ function Galleryc() {
     <div className="col-md-4 pt-2">
       <div className="thumbnail">
         <a href="./7.JPG" target="_blank">
-          <img src="./7.JPG" className='g' alt="Lights" />
+          <img src="./7.JPG" className='g'alt='dazzling event'/>
       
         </a>
       </div>
@@ -42,7 +42,7 @@ function Galleryc() {
     <div className="col-md-4 pt-2">
       <div className="thumbnail">
         <a href="./5.JPG" target="_blank">
-          <img src="/5.JPG" className='g'  alt="Nature"/>
+          <img src="/5.JPG" className='g'alt='dazzling event'/>
        
         </a>
       </div>
@@ -50,7 +50,7 @@ function Galleryc() {
     <div className="col-md-4 pt-2">
       <div className="thumbnail">
         <a href="./6.JPG" target="_blank">
-          <img src="./6.JPG" className='g'  alt="Fjords" />
+          <img src="./6.JPG" className='g' alt='dazzling event' />
        
         </a>
       </div>

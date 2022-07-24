@@ -10,7 +10,7 @@ function ServicesMain() {
  
     <div className='row pb-5 ps-3 pe-3'>
     <div className='col spb' >
-    <figure class="snip1107 blue"><img src="./cater.jpg" alt="sampl31"/>
+    <figure class="snip1107 blue"><img src="./cater.jpg" alt='dazzling event'/>
   <figcaption>
     <div>               
 <span>GET IN TOUCH</span></div>
@@ -21,7 +21,7 @@ function ServicesMain() {
 </figure>
       </div>
       <div className='col spb'>
-    <figure class="snip1107 blue"><img src="./ring.jpg" alt="sampl31"/>
+    <figure class="snip1107 blue"><img src="./ring.jpg" alt='dazzling event'/>
   <figcaption>
     <div>                  
 <span>GET IN TOUCH</span></div>
@@ -32,7 +32,7 @@ function ServicesMain() {
 </figure>
       </div> 
       <div className='col spb'>
-    <figure class="snip1107 blue"><img src="./house.jpg" alt="sampl31"/>
+    <figure class="snip1107 blue"><img src="./house.jpg" alt='dazzling event'/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
     <div>
@@ -45,7 +45,7 @@ function ServicesMain() {
       </div>
       <div className='row pb-5 pt-1 ps-3 pe-3'>
     <div className='col spb'>
-    <figure class="snip1107 blue"><img src="./marriage.jpg" alt="sampl31"/>
+    <figure class="snip1107 blue"><img src="./marriage.jpg" alt='dazzling event'/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
     <div>
@@ -55,7 +55,7 @@ function ServicesMain() {
 </figure>
       </div>
       <div className='col spb'>
-    <figure class="snip1107 blue"><img src="./namming.jpg" alt="sampl31"/>
+    <figure class="snip1107 blue"><img src="./namming.jpg" alt='dazzling event'/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
     <div>
@@ -65,7 +65,7 @@ function ServicesMain() {
 </figure>
       </div>
       <div className='col spb'>
-    <figure class="snip1107 blue"><img src="./birthday.jpg" alt="sampl31"/>
+    <figure class="snip1107 blue"><img src="./birthday.jpg" alt='dazzling event'/>
   <figcaption>
     <div><span>GET IN TOUCH</span></div>
     <div>
