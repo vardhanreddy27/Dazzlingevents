@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink,useLocation,Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Slideshow() {
   return (

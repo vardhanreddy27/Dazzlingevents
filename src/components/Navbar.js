@@ -18,7 +18,7 @@ const Navbar = () =>{
 <nav className="navbar navbar-expand-lg ">
   <div className='col-10 wi'>
   <Link to='/'      className={isActive ? 'mlc': null} 
-> <a className="navbar-brand ps-4 pe-4"> 
+> <a href='#'className="navbar-brand ps-4 pe-4"> 
 DEVENTS</a>
 </Link>
  </div><div className='col-2' > <div 
