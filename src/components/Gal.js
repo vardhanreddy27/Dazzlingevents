@@ -69,7 +69,7 @@ function Gal() {
     <div className="col-md-4  pt-2">
       <div className="thumbnail">
         <a href="./dec.png" target="_blank">
-          <img src="/dec.png" className='gik'  alt='dazzling event'/>
+          <img src="/dec.png" className='g'  alt='dazzling event'/>
        
         </a>
       </div>
